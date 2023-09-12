@@ -20,7 +20,7 @@ export default function SignUp() {
         password: credentials.password,
         location: credentials.geolocation
       }))
-    const response = await fetch("https://food-api.onrender.comapi/createuser", {
+    const response = await fetch("https://food-api-uu9k.onrender.com/api/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
