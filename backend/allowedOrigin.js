@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    'https://food.onrender.com'
+    'https://food-vs2u.onrender.com'
 ]
 
 module.exports = allowedOrigins
