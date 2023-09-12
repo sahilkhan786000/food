@@ -18,7 +18,7 @@ console.log(JSON.stringify({
     
   }))
 
-const response = await fetch("https://food-api.onrender.comapi/loginuser", {
+const response = await fetch("https://food-api-uu9k.onrender.com/api/loginuser", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
