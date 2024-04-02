@@ -35,15 +35,16 @@ export default function Navbar() {
         </li>
         {localStorage.getItem("authToken") ? (
           <React.Fragment>
-            <li>
-              <div className="d-flex flex-direction-column align-items-center">
+              <li>
                 <div className="btn bg-white text-success mx-1" onClick={() => setCartView(true)}>
                   My Cart{"  "}
                   <Badge pill bg="danger"> {data.length} </Badge>
                 </div>
+              </li>
+              <li>
                 <div className="btn bg-white text-danger mx-1" onClick={handleLogOut}> Logout </div>
-              </div>
-            </li>
+  
+               </li>
             <li>
             <Link className="btn bg-white text-success mx-1" to="/createuser">My Order</Link>
             </li>
