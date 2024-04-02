@@ -1,0 +1,29 @@
+.dialog-container {
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color: #343a40; /* Bootstrap dark theme color */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .dialog-content {
+    padding: 10px;
+  }
+  
+  .dialog-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dialog-content li {
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 990.98px) {
+    .dialog-container {
+      display: none;
+    }
+  }
